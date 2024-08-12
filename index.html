@@ -14,8 +14,8 @@
     <header>
         <div class="container" style="padding:0px;">
             <span>
-            <img src="icon.png" alt="ITクエストロゴ" style="width:25px;border-radius: 5px;margin-left: 10px;">
-            <span style="font-size: 25px;vertical-align: middle;color: #565656;font-weight: bold;margin-left:5px;">ITクエスト</span>
+            <img src="icon.png" alt="ITクエストロゴ" class="header_logo">
+            <span class="header_title">ITクエスト</span>
             </span>
             <nav>
                 <ul>
@@ -88,7 +88,7 @@
     <div class="sumaho">
         <!-- ヒーローセクション -->
         <section class="background_image">
-            <div class="row align-items-center" style="padding-top: 70px;padding-bottom: 20px;margin-right:0;">
+            <div class="row align-items-center" style="padding-top: 50px;padding-bottom: 20px;margin-right:0;">
                 <div class="col-6" style="z-index:10;padding: 15px;background-color: rgba(255, 255, 255, 0.7);border-radius: 30px;margin-left:30px;">
                     <!-- <h1 style="font-weight: bold;font-size:100px;">ITクエスト</h1> -->
                     <div><img src="subTitle_sumaho.png" style="width:170px;font-weight: bold;padding-bottom: 5px;"></div>
@@ -114,18 +114,18 @@
         <section id="features" class="features" style="padding:20px 0;">
             <h3>アプリの特徴</h3>
             <div>
-                <div style="padding: 5px;margin-top: -10px;">
-                    <img src="icon1.png" alt="学習の楽しさ">
+                <div style="padding: 5px;margin-top: -10px;margin-top: -10px;">
+                    <img src="icon1.png" alt="学習の楽しさ"style="margin-top: -10px;">
                     <h4>学習の楽しさ</h4>
                     <p style="font-size:15px;">ゲーム感覚でITの知識を習得できます。<br>ITパスポート、基本情報技術者試験など資格ごとに<br>勉強できます。</p>
                 </div>
                 <div>
-                    <img src="icon2.png" alt="ゲーム要素">
+                    <img src="icon2.png" alt="ゲーム要素" style="margin-top: -20px;">
                     <h4>ゲーム要素</h4>
                     <p>ガチャで新しい仲間を手に入れよう。<br>難しいダンジョンにも挑戦できるようになります。<br>　</p>
                 </div>
                 <div>
-                    <img src="icon3.png" alt="幅広いコンテンツ" style="width:370px;">
+                    <img src="icon3.png" alt="幅広いコンテンツ" style="width:370px;margin-top: -30px;">
                     <h4>幅広いコンテンツ</h4>
                     <p>日々の回答数や正答率をグラフで確認できます。<br>また、不正解した問題だけ解くことができます。<br>　</p>
                 </div>
@@ -134,10 +134,10 @@
 
         <!-- ダウンロードセクション -->
         <section id="download" class="download">
-            <div class="container">
                 <h3>今すぐダウンロード</h3>
-                <a href="https://apps.apple.com/us/app/it%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-it%E3%81%A8%E5%95%8F%E9%A1%8C%E3%81%A8%E5%8B%89%E5%BC%B7%E3%81%A8%E5%AD%A6%E7%BF%92%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id6469339499" class="cta-button">App Storeでダウンロード</a>
-            </div>
+                <a href="https://apps.apple.com/us/app/it%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-it%E3%81%A8%E5%95%8F%E9%A1%8C%E3%81%A8%E5%8B%89%E5%BC%B7%E3%81%A8%E5%AD%A6%E7%BF%92%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id6469339499">
+                    <img class="appstore_download" src="download.png" style="width: 200px;padding-top: 10px;">
+                </a>
         </section>
     </div>
 
@@ -359,6 +359,21 @@ footer a {
 @media (max-width: 576px) {
     .PC{
         display: none;
+    }    
+    header {
+        padding: 5px 0;
+    }
+    .header_title{
+        font-size: 20px;
+        vertical-align: middle;
+        color: #565656;
+        font-weight: bold;
+        margin-left:5px;
+    }
+    .header_logo{
+        width:20px;
+        border-radius: 5px;
+        margin-left: 10px;
     }
     .sumaho {
         display: block;
@@ -374,6 +389,18 @@ footer a {
 @media (min-width: 1025px) {
     .PC{
         display: block;
+    }
+    .header_title{
+        font-size: 25px;
+        vertical-align: middle;
+        color: #565656;
+        font-weight: bold;
+        margin-left:5px;
+    }
+    .header_logo{
+        width:25px;
+        border-radius: 5px;
+        margin-left: 10px;
     }
     .sumaho {
         display: none;
