@@ -6,7 +6,6 @@
     <meta name="description" content="ITクエストで楽しみながらITの資格勉強を。ゲーム感覚の学習アプリでITパスポート、基本情報技術者試験の準備が可能です。">
     <title>ITクエスト - 楽しく学ぶITの冒険</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -19,7 +18,7 @@
             </span>
             <nav>
                 <ul>
-                    <li><a style="color: #565656;" href="#features">特徴</a></li>
+                    <li><a style="color: #565656;" href="#features">特長</a></li>
                     <li><a style="color: #565656;" href="https://apps.apple.com/us/app/it%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-it%E3%81%A8%E5%95%8F%E9%A1%8C%E3%81%A8%E5%8B%89%E5%BC%B7%E3%81%A8%E5%AD%A6%E7%BF%92%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id6469339499">ダウンロード</a></li>
                 </ul>
             </nav>
@@ -29,7 +28,7 @@
     <div class="PC">
         <!-- ヒーローセクション -->
         <section class="background_image">
-            <div class="row align-items-center" style="padding-top: 80px;padding-bottom: 20px;margin-right:0;">
+            <div class="row align-items-center" style="padding-top: 10px;">
                 <div class="col-1"></div>
                 <div class="col-6" style="z-index:10;padding: 20px;background-color: rgba(255, 255, 255, 0.7);border-radius: 30px;">
                     <!-- <h1 style="font-weight: bold;font-size:100px;">ITクエスト</h1> -->
@@ -44,8 +43,13 @@
                             </a>
                     </div>
                 </div>
-                <div class="col-2">
-                    <img alt="ゲーム感覚でITの知識が勉強できるアプリ" src="iphone_raimu.png" style="width: 500px;">
+                <div class="col-5" style="margin-bottom: 30px;">
+                    <div>
+                    <!-- <img alt="ゲーム感覚でITの知識が勉強できるアプリ" src="iphone_raimu.png" style="width: 500px;"> -->
+                    <img alt="ゲーム感覚でITの知識が勉強できるアプリ" src="iphone.png" class="lazy-load" style="width: 250px;position: relative;z-index: 10;">
+                    <img alt="ゲーム感覚でITの知識が勉強できるアプリ" src="iPhone_golem.png" class="lazy-load" style="width: 380px;margin-left: -120px;margin-top: -110px;">
+                    <img alt="ゲーム感覚でITの知識が勉強できるアプリ" src="raimu.png" class="lazy-load" style="width: 230px;position: relative;z-index: 200;margin-top: -300px;margin-left:150px;">
+                    </div>
                 </div>
                 <div class="col-1"></div>
             </div>
@@ -53,21 +57,22 @@
 
         <!-- 特徴セクション -->
         <section id="features" class="features">
-            <h3>アプリの特徴</h3>
+            <h3 class="fade-in-up" style="color: steelblue;">Feature</h3>
+            <h1 class="fade-in-up" style="font-weight: bold;">アプリの特長</h1>
             <div class="container">
-                <div>
+                <div class="fade-in-up">
                     <img src="icon1.png" alt="学習の楽しさ">
-                    <h4>学習の楽しさ</h4>
+                    <h4 style="font-weight: bold;">学習の楽しさ</h4>
                     <p>ゲーム感覚でITの知識を習得できます。<br>ITパスポート、基本情報技術者試験など資格ごとに<br>勉強できます。</p>
                 </div>
-                <div>
+                <div class="fade-in-up">
                     <img src="icon2.png" alt="ゲーム要素">
-                    <h4>ゲーム要素</h4>
+                    <h4 style="font-weight: bold;">ゲーム要素</h4>
                     <p>ガチャで新しい仲間を手に入れよう。<br>難しいダンジョンにも挑戦できるようになります。<br>　</p>
                 </div>
-                <div>
+                <div class="fade-in-up">
                     <img src="icon3.png" alt="幅広いコンテンツ" style="width:390px;">
-                    <h4>幅広いコンテンツ</h4>
+                    <h4 style="font-weight: bold;">幅広いコンテンツ</h4>
                     <p>日々の回答数や正答率をグラフで確認できます。<br>また、不正解した問題だけ解くことができます。<br>　</p>
                 </div>
             </div>
@@ -76,7 +81,7 @@
         <!-- ダウンロードセクション -->
         <section id="download" class="download">
             <div class="container">
-                <h3>今すぐダウンロード</h3>
+                <h3 style="font-weight: bold;">今すぐダウンロード</h3>
                 <!-- <a href="https://apps.apple.com/us/app/it%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-it%E3%81%A8%E5%95%8F%E9%A1%8C%E3%81%A8%E5%8B%89%E5%BC%B7%E3%81%A8%E5%AD%A6%E7%BF%92%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id6469339499" class="cta-button">App Storeでダウンロード</a> -->
                 <a href="https://apps.apple.com/us/app/it%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88-it%E3%81%A8%E5%95%8F%E9%A1%8C%E3%81%A8%E5%8B%89%E5%BC%B7%E3%81%A8%E5%AD%A6%E7%BF%92%E3%81%8C%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id6469339499">
                     <img class="appstore_download" src="download.png">
@@ -111,7 +116,7 @@
         </section>
 
         <!-- 特徴セクション -->
-        <section id="features" class="features">
+        <section id="features" class="features fade-in">
             <h3>アプリの特徴</h3>
             <div class="container">
                 <div>
@@ -210,6 +215,51 @@
 </body>
 </html>
 <style>
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(50px); /* 下から50pxオフセット */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.lazy-load{
+    opacity: 0;
+    transform: translateY(50px); /* 下から50pxオフセット */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in-up.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.lazy-load.appear {
+    opacity: 1;
+}
+
+.fade-in-up:nth-child(1).appear {
+    transition-delay: 0.4s; /* 最初の要素に少し遅延 */
+}
+
+.fade-in-up:nth-child(2).appear {
+    transition-delay: 0.8s; /* 2番目の要素にさらに遅延 */
+}
+
+.fade-in-up:nth-child(3).appear {
+    transition-delay: 1.2s; /* 3番目の要素にさらに遅延 */
+}
+
+.lazy-load:nth-child(1).appear {
+    transition-delay: 0.4s; /* 最初の要素に少し遅延 */
+}
+
+.lazy-load:nth-child(2).appear {
+    transition-delay: 0.8s; /* 2番目の要素にさらに遅延 */
+}
+
+.lazy-load:nth-child(3).appear {
+    transition-delay: 1.2s; /* 3番目の要素にさらに遅延 */
+}
+
 /* styles.css */
 body {
     font-family: 'Roboto', sans-serif;
@@ -414,6 +464,11 @@ footer a {
     opacity: 0.5;
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
 /* スマートフォン用スタイル */
 @media (max-width: 576px) {
     .PC{
@@ -494,3 +549,39 @@ footer a {
 }
 
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const fadeInSequence = ['iphone.png', 'iPhone_golem.png', 'raimu.png'];
+
+    let currentIndex = 0;
+
+    const observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // if (entry.target.dataset.src === fadeInSequence[currentIndex]) {
+                    // entry.target.src = entry.target.dataset.src;
+                    entry.target.classList.add('appear');
+                    observer.unobserve(entry.target);
+                    currentIndex++;
+                // }
+            }
+        });
+    }, options);
+
+    document.querySelectorAll('.fade-in-up').forEach(img => {
+        observer.observe(img);
+    });
+
+    document.querySelectorAll('.lazy-load').forEach(img => {
+        observer.observe(img);
+    });
+});
+</script>
+    
